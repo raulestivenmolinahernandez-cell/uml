@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ejemplos y Herramientas UML</title>
+<link rel="stylesheet" href="estilos.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+<header>
+  <h1>Ejemplos y Herramientas UML</h1>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="pagina1.html">Diagramas UML</a>
+    <a href="pagina2.html" class="activo">Ejemplos y Herramientas</a>
+  </nav>
+</header>
+<main>
+  <section>
+    <h2>Ejemplo práctico: Sistema de Biblioteca</h2>
+    <pre>
+Clase: Libro
+- isbn: String
+- titulo: String
+- autor: String
++ prestar(): Boolean
+
+Clase: Usuario
+- id: Integer
+- nombre: String
++ solicitarPrestamo(libro: Libro): Boolean
+    </pre>
+  </section>
+  <section>
+    <h2>Herramientas UML recomendadas</h2>
+    <ul>
+      <li>StarUML</li>
+      <li>PlantUML</li>
+      <li>Visual Paradigm</li>
+    </ul>
+  </section>
+  <section>
+    <h2>Video: Introducción a PlantUML</h2>
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/9CLE33qPIvI" title="PlantUML" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+</main>
+<footer>
+  <p>&copy; 2025 - UML Académico</p>
+</footer>
+</body>
+</html>
